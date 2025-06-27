@@ -29,7 +29,7 @@ TW_RECOVERY_ROOT := $(LOCAL_PATH)/recovery/root  # 资源路径指向vendor_boot
 需协助排查：
  
 1. vendor_boot中Recovery的启动逻辑是否有误（如init脚本未正确加载 /vendor_boot/recovery 资源）？
-2. 安卓12底层与安卓14的 vendor_boot 分区是否存在启动兼容性冲突？
+2. 这个recovery并不包含内核，内核是在boot里面，内核命令行参数是否有误？
 3. 无限重启是否因 vendor_boot 与内核/设备树的适配问题（如驱动不支持从vendor_boot启动Recovery）？
  
 盼熟悉VAB结构与vendor_boot启动流程的开发者指导排查，感谢！
