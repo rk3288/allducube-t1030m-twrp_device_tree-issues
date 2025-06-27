@@ -33,3 +33,5 @@ TW_RECOVERY_ROOT := $(LOCAL_PATH)/recovery/root  # 资源路径指向vendor_boot
 3. 无限重启是否因 vendor_boot 与内核/设备树的适配问题（如驱动不支持从vendor_boot启动Recovery）？
  
 盼熟悉VAB结构与vendor_boot启动流程的开发者指导排查，感谢！
+
+![image text](https://github.com/rk3288/bad_allducube_t1030m_twrp_device_tree/blob/cdb6b8d11b23eae9babdf8d0ec1a84b390f45a45/Screenshot_20250627-154451_Chrome.png)
