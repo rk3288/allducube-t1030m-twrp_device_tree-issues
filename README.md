@@ -1,0 +1,2 @@
+# bad_allducube_t1030m_twrp_device_tree
+这是一个酷比魔方t1030m的twrp,可以编译通过，但刷进去不开机
