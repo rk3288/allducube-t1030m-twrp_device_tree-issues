@@ -17,7 +17,8 @@
 - 排除：已用 fastboot --disable-verity 刷入，非签名验证问题
  
 vendor_boot关键配置（BoardConfig.mk）
- 
+
+ ```makefile
 BOARD_USES_VENDOR_BOOT := true  # 启用vendor_boot作为Recovery载体
 BOARD_MOVE_RECOVERY_RESOURCES_TO_VENDOR_BOOT := true  # 资源移至vendor_boot
 TARGET_USES_VAB := true  # 启用VAB结构
