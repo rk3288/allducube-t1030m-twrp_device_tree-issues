@@ -21,7 +21,7 @@ USB 功能缺失 无法通过 USB 连接电脑（包括 ADB 调试、文件传�
 repo init -u https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git -b twrp-12.1  
 repo sync -c  
 ```
-# 将本设备树放入 device/allcube/i1030m 目录    
+# 将本设备树放入 device/allducube/t1030m 目录    
 ```bash
 mkdir -p device/allcube/t1030m  
 cp -r [你的设备树目录] device/allcube/t1030m  
