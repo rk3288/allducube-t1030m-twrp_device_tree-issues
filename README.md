@@ -30,14 +30,15 @@ cp -r [你的设备树目录] device/allducube/t1030m
 # 编译 recovery 镜像  
 ```bash
 source build/envsetup.sh  
-lunch 5 
+lunch 5
+ALLOW_MISSING_DEPENDENCIES := true
 make vendorbootimage -j$(nproc)  
  
- 
  ```
+ 
 刷入提示
  
-1. 刷入前务必备份原有 Recovery 分区（可通过  fastboot backup  或第三方工具）。
+1. 刷入前务必备份原有 vendorboot 分区（可通过  dd命令  或第三方工具）。
 2. 本版本仅适用于 开发调试，请勿用于生产环境。
  
 4. 问题排查方向（供开发者参考）
