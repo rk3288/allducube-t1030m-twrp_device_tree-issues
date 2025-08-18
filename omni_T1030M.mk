@@ -8,7 +8,7 @@
 
 
 # Inherit from T1030M device
-$(call inherit-product, device/alldocube/T1030M/device.mk)
+$(call inherit-product, device/alldocube/t1030m/device.mk)
 
 PRODUCT_DEVICE := T1030M
 PRODUCT_NAME := omni_T1030M
