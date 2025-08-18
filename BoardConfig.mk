@@ -18,6 +18,7 @@ DEVICE_PATH := device/alldocube/t1030m
 
 # Building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
+TARGET_SUPPORTS_64_BIT_APPS := true
 
 # Build Hack
 BUILD_BROKEN_DUP_RULES := true
