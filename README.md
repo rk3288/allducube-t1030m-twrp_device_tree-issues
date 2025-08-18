@@ -16,19 +16,25 @@ USB 功能缺失 无法通过 USB 连接电脑（包括 ADB 调试、文件传�
 编译步骤（需提前配置 Android 编译环境）
  
 # 初始化 TWRP 源码（以 twrp-12.1 分支为例）
+```bash
 repo init -u https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git -b twrp-12.1  
 repo sync  
 
+```
 # 将本设备树放入 device/allcube/t1030m 目录  
+```bash
 mkdir -p device/allducube/t1030m  
 cp -r [你的设备树目录] device/allducube/t1030m  
 
+```
 # 编译 recovery 镜像  
+```bash
 source build/envsetup.sh  
 lunch 5 
 make vendorbootimage -j$(nproc)  
  
  
+ ```
 刷入提示
  
 1. 刷入前务必备份原有 Recovery 分区（可通过  fastboot backup  或第三方工具）。
