@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/alldocube/T1030M
+DEVICE_PATH := device/alldocube/t1030m
 
 # Building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
