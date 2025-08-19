@@ -21,7 +21,7 @@ repo init -u https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aos
 repo sync  
 
 ```
-# 将本设备树放入 device/allcube/t1030m 目录  
+# 将本设备树放入 device/allducube/t1030m 目录  
 ```bash
 mkdir -p device/allducube/t1030m  
 cp -r [你的设备树目录] device/allducube/t1030m  
