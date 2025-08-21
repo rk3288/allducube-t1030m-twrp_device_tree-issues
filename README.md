@@ -8,8 +8,9 @@ TWRP 设备配置文件（allducube t1030m 适配）
  
 问题类型 现象描述 
 触摸失效 刷入后触摸屏无响应，无法操作 TWRP 界面。 
-分区挂载异常  system 、 vendor 、 data  等多数分区无法正常挂载，部分能挂但是挂载的地方满天飞，导致无法读写分区内容。 
-USB 功能缺失 无法通过 USB 连接电脑（包括 ADB 调试、文件传输等功能均失效）。 
+data分区挂载失败，导致无法解密分区，system，vendor，metadata，system_dlkm
+，vendor_dlkm这些分区，已经可以正常挂载
+USB 功能缺失 无法通过 USB 连接电脑（包括 ADB 调试、文件传输等，但USB鼠标已可用，但不支持热插拔）。 
  
 3. 使用指南
  
