@@ -196,3 +196,4 @@ TW_INPUT_BLACKLIST := hbtp_vm
 
 # Modules
 TW_LOAD_VENDOR_BOOT_MODULES := true
+TW_COPY_FROM_VENDOR := true
