@@ -1,6 +1,7 @@
 
+> English version：[TWRP][en-doc]
 ...
-[English]: https://github.com/rk3288/allducube-t1030m-twrp_device_tree-issues/blob/main/English.md
+[en-doc]: https://github.com/rk3288/allducube-t1030m-twrp_device_tree-issues/blob/main/English.md
 
 
 TWRP 设备配置文件（allducube t1030m 适配）
