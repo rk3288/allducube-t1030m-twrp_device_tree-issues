@@ -1,6 +1,6 @@
 
 ...
-[English]: TWRP Device Configuration File (allducube t1030m Adaptation).md
+[English]: https://github.com/rk3288/allducube-t1030m-twrp_device_tree-issues/blob/main/English.md
 
 
 TWRP 设备配置文件（allducube t1030m 适配）
