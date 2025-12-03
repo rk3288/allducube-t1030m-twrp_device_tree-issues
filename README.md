@@ -1,3 +1,8 @@
+
+...
+[English]: TWRP Device Configuration File (allducube t1030m Adaptation).md
+
+
 TWRP 设备配置文件（allducube t1030m 适配）
  
 1. 项目说明
