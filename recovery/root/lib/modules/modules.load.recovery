@@ -168,3 +168,5 @@ mtk-pm-domain-disable-unused.ko
 sec.ko
 uload_ind.ko
 load_track.ko
+hw_module_info.ko
+nt36523.ko
