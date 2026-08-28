@@ -5,6 +5,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-add_lunch_combo omni_T1030M-user
-add_lunch_combo omni_T1030M-userdebug
-add_lunch_combo omni_T1030M-eng
+add_lunch_combo twrp_T1030M-user
+add_lunch_combo twrp_T1030M-userdebug
+add_lunch_combo twrp_T1030M-eng
